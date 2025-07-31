@@ -5,7 +5,7 @@ import { UserModule } from './user/user.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://sujal:Rathoddiginpe@cluster0.zxqhpyb.mongodb.net/NestJs-Practise',
+      //Add your Mongo DB Link to connect mongoose in string,
     ),
     UserModule,
   ],
