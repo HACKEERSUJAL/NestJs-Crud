@@ -13,8 +13,6 @@ export class User {
   age: number;
   @Prop({ required: true })
   password: string;
-  @Prop()
-  avatar?: string;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
